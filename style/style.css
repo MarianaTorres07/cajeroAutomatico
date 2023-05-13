@@ -1,0 +1,70 @@
+/*La parte del Login*/
+.user {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+
+}
+
+
+.login{
+    height: 30%;
+    width: 30%;
+    margin: auto;
+    margin-top: 8%;
+
+}
+/*La parte del cajero */
+.cajero{
+    background-color: #b84c5a;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.logoc{
+    margin-left: 25px;
+    margin-top: 25px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo{
+    font-size: 20px;
+    color:white;
+}
+
+.subtitulo{
+    margin-top: -10px;
+    margin-left: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.cuadro{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ffa595;
+    margin-left: 35px;
+    color: white;
+    height: 50PX;
+}
+
+.centrartexto{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.botonAccion{
+    margin-top: 60px;
+    color:#0B3890;
+}
+
+.rosa{
+    background-color: #EA0765;
+    border-color: #EA0765;
+}
