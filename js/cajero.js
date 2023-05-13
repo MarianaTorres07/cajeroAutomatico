@@ -76,9 +76,16 @@ const retirarMonto =document.getElementById('retirarMonto');
  const salirButton =document.getElementById('salirButton');
 
  salirButton.addEventListener('click', function(e){
-    //Para redireccionarnos a otro archivo html.
-    window.location.href = '/index.html';
+    
+    const confirmacion = confirm('Estas seguro de salir?');
 
+    if(confirmacion){
+        //Para redireccionarnos a la página principal.
+        window.location.href = '/index.html';
+    }else{
+        //No se hace nada.
+    }
+    
  });
 
 
